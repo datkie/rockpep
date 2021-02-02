@@ -12,7 +12,8 @@ var ans =document.getElementById("answers");
 var bot  =document.getElementById("answerbot");
 var you  =document.getElementById("you");
 var res  =document.getElementById("result");
-
+Object.freeze(score);
+Object.freeze(life);
 
 var text;
 var rand2 = function(){
