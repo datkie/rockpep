@@ -1,7 +1,7 @@
 var bot =document.getElementById("answerbot");
 var indicator = document.getElementById("indi");
-let life =10;
-let score =0;
+const life =10;
+const score =0;
 var secsub=document.getElementById("submitss");
 var sub=document.getElementById("submitss");
 var answert =document.getElementById("answers");
