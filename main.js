@@ -18,9 +18,8 @@ var res  =document.getElementById("result");
 //let kill = function(){} is not accessible from outside
 
 
-
-var rand2 = function(){
 var text;
+var rand2 = function(){
     var timeleft = 5;
     var downloadTimer = setInterval(function(){
         if(timeleft <= 0){
@@ -299,7 +298,7 @@ if(life == 0){
     
     }
 
-
+}
 
 
 /*
