@@ -115,7 +115,6 @@ document.getElementById("score").innerHTML = "Score:"+score;
     
 
 var answer = function(){
-var text;
     var audio = document.getElementById("audio");
     audio.play();
     
