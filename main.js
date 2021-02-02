@@ -1,4 +1,4 @@
-code: {
+
 var bot =document.getElementById("answerbot");
 var indicator = document.getElementById("indi");
 var life =10;
@@ -13,7 +13,7 @@ var ans =document.getElementById("answers");
 var bot  =document.getElementById("answerbot");
 var you  =document.getElementById("you");
 var res  =document.getElementById("result");
-  }
+  
 //function kill(){} is accessible from outside 
 //let kill = function(){} is not accessible from outside
 
@@ -309,15 +309,6 @@ if(life == 0){
 
 }
 
-  console.log("From inside:", hitpoint)
-
-} 
-
-try {
-  console.log("From outside:", hitpoint)
-} catch (err) {
-  console.log("From outside:", "It gives an error. So you can't access it from the console or anywhere outside the code")
-}
 
 /*
 
