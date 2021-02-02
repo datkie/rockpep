@@ -74,8 +74,6 @@ bot.style.display ="none";
 
 var rand = function(){
 
-
-
 var text;
     prep.style.display ="block";
     ans.disabled = true;
@@ -120,9 +118,6 @@ document.getElementById("score").innerHTML = "Score:"+score;
     
 
 var answer = function(){
-
-
-
 var text;
     var audio = document.getElementById("audio");
     audio.play();
