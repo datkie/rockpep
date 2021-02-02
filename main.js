@@ -20,6 +20,7 @@ var res  =document.getElementById("result");
 
 var text;
 var rand2 = function(){
+  var text;
     var timeleft = 5;
     var downloadTimer = setInterval(function(){
         if(timeleft <= 0){
