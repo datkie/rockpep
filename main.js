@@ -1,4 +1,3 @@
-
 var bot =document.getElementById("answerbot");
 var indicator = document.getElementById("indi");
 var life =10;
@@ -13,14 +12,10 @@ var ans =document.getElementById("answers");
 var bot  =document.getElementById("answerbot");
 var you  =document.getElementById("you");
 var res  =document.getElementById("result");
-  
-//function kill(){} is accessible from outside 
-//let kill = function(){} is not accessible from outside
 
 
 var text;
 var rand2 = function(){
-  var text;
     var timeleft = 5;
     var downloadTimer = setInterval(function(){
         if(timeleft <= 0){
@@ -33,7 +28,7 @@ var rand2 = function(){
             document.getElementById("timer").innerHTML= "Game start in:"+timeleft;
             timeleft -= 1;
         }, 1000);
-    
+
 
     if (Math.random() < 0.5) {
         text="Rock"+"<i class='fas fa-hand-rock' style='font-size:24px'></i>"
@@ -70,14 +65,12 @@ bot.style.display ="none";
 
 
 var rand = function(){
-
-var text;
     prep.style.display ="block";
     ans.disabled = true;
     sb.disabled = true;
 
     var timeleft = 4;
-    
+
     var downloadTimer = setInterval(function(){
         if(timeleft <= 0){
             prep.style.display ="none";
@@ -112,12 +105,12 @@ document.getElementById("score").innerHTML = "Score:"+score;
 
 }
 
-    
+
 
 var answer = function(){
     var audio = document.getElementById("audio");
     audio.play();
-    
+
     document.getElementById("indi").style.display ="none";
     var answers = document.getElementById("answers").value;
     if(answers == "Paper" && text =="Rock"+"<i class='fas fa-hand-rock' style='font-size:24px'></i>" ){
@@ -295,18 +288,12 @@ if(life == 0){
     document.getElementById("you").style.display ="none";
     document.getElementById("result").style.display ="none";
     document.getElementById("score").innerHTML = "Your Final score is:"+score;
-    
+
     }
 
 }
 
 
+
 /*
-
-
-
-
-
 */
-
-
